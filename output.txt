@@ -1,0 +1,9 @@
+0
+1
+2
+3
+4
+loop finished
+30
+120
+language name: ygcompiler

@@ -1,0 +1,33 @@
+# ygcompiler example program
+
+let x = 0;
+
+while x < 5 {
+    print(x);
+    x = x + 1;
+}
+
+if x == 5 {
+    print("loop finished");
+} else {
+    print("error");
+}
+
+func add(a, b) {
+    return a + b;
+}
+
+print(add(10, 20));
+
+func fact(n) {
+    if n <= 1 {
+        return 1;
+    } else {
+        return n * fact(n - 1);
+    }
+}
+
+print(fact(5));
+
+let name = "ygcompiler";
+print("language name: " + name);
